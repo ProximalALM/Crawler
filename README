@@ -1,0 +1,29 @@
+First install the dependencies: requests, selenium for python3, and phantomjs
+
+Assuming that you are running on OS X
+$ pip install requests
+$ pip install selenium 
+
+For phantomjs
+Simple way is
+$ brew install phantomjs
+
+Or install manually
+Download the Mac OS X version from https://phantomjs.org/download.html
+$ vi ~/.bash_profile
+Add export PATH=/Users/***/phantomjs-2.1.1-macosx/bin:$PATH
+where *** is the path that you put the folder phantomjs-2.1.1-macosx in
+
+Then write all your urls to urls.txt
+
+Change the directory to crawler
+
+Run crawl.py
+$ python3 crawl.py
+
+Results will be in the instance.json
+
+Currently there are 4 threads, modify line 15 to increase/decrease threads based on the number of urls
+If there are 1 million urls, try to use 100 threads
+
+Currently the timeout is 20 seconds, modify line 16 to increase/decrease based on the network speed

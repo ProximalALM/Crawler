@@ -1,0 +1,40 @@
+{
+"https://www.appannie.com/":
+{
+    "twitter": "appannie",
+    "facebook": "AppAnnie"
+},
+"http://blog.pixalate.com/":
+{
+    "twitter": "pixalateinc",
+    "facebook": "pixalate"
+},
+"https://www.zello.com":
+{
+    "ios": "508231856",
+    "google": "com.loudtalks",
+    "twitter": "Zello",
+    "facebook": "ZelloMe"
+},
+"https://apps.shopify.com/trending":
+{
+    "twitter": "shopify",
+    "facebook": "shopify"
+},
+"https://yelp.com/":
+{
+    "ios": "284910350",
+    "google": "com.yelp.android"
+},
+"https://www.wish.com/?&hide_login_modal=true":
+{
+    "ios": "530621395",
+    "google": "com.contextlogic.wish",
+    "facebook": "wish"
+},
+"https://www.zynga.com":
+{
+    "twitter": "zynga",
+    "facebook": "zynga"
+}
+}
